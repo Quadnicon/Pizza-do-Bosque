@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardápio | Pizza do Bosque</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fdf8f4;
+      color: #333;
+    }
+    header {
+      background-color: #d62828;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo-container img {
+      height: 50px;
+      margin-right: 15px;
+    }
+    .logo-container h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('cardapio-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background-color: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .section h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #d62828;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .menu-item {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .menu-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .menu-item h4 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+      color: #d62828;
+    }
+    .menu-item p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+    footer {
+      background-color: #d62828;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo Pizza do Bosque" />
+      <h1>Pizza do Bosque</h1>
+    </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="rodizios.html">Rodízios</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Sabores que encantam 🍕</h2>
+  </div>
+
+  <section class="section">
+    <h3>Nosso Cardápio</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="calabresa.png" alt="Pizza Calabresa">
+        <h4>Calabresa</h4>
+        <p>Calabresa fatiada, cebola roxa, mussarela e azeitonas pretas.</p>
+      </div>
+      <div class="menu-item">
+        <img src="frango.png" alt="Pizza Frango com Catupiry">
+        <h4>Frango com Catupiry</h4>
+        <p>Frango desfiado temperado, catupiry cremoso e mussarela.</p>
+      </div>
+      <div class="menu-item">
+        <img src="margarita.png" alt="Pizza Margarita">
+        <h4>Margarita</h4>
+        <p>Molho de tomate, mussarela fresca e manjericão.</p>
+      </div>
+      <div class="menu-item">
+        <img src="vegetariana.png" alt="Pizza Vegetariana">
+        <h4>Vegetariana</h4>
+        <p>Tomate, pimentão, cebola, champignon, azeitonas e mussarela.</p>
+      </div>
+      <div class="menu-item">
+        <img src="portuguesa.png" alt="Pizza Portuguesa">
+        <h4>Portuguesa</h4>
+        <p>Presunto, ovos, cebola, azeitonas, mussarela e orégano.</p>
+      </div>
+      <div class="menu-item">
+        <img src="chocolate.png" alt="Pizza de Chocolate">
+        <h4>Chocolate</h4>
+        <p>Chocolate ao leite derretido sobre massa crocante.</p>
+      </div>
+      <div class="menu-item">
+        <img src="romeu.png" alt="Pizza Romeu e Julieta">
+        <h4>Romeu e Julieta</h4>
+        <p>Goiabada cremosa com queijo minas sobre massa doce.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Pizza do Bosque — Sabores artesanais para todos os gostos.
+  </footer>
+</body>
+</html>
